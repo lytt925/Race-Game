@@ -1,0 +1,87 @@
+7.8636 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+7.8642 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc9a0496490>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc9a0496430>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc9a04962b0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fc9a6d797f0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1024,  768]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.8643 	EXP 	window1: mouseVisible = True
+7.8644 	EXP 	window1: backgroundImage = ''
+7.8644 	EXP 	window1: backgroundFit = 'none'
+7.8653 	EXP 	window1: mouseVisible = False
+7.8679 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.8680 	EXP 	window1: recordFrameIntervals = False
+7.9738 	EXP 	window1: recordFrameIntervals = True
+8.8071 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+11.1725 	EXP 	window1: mouseVisible = True
+11.2240 	EXP 	Created text_test_stage = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='BiauKai', fontFiles=[], height=60.0, italic=False, languageStyle='LTR', name='text_test_stage', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='本階段為測試階段\n\n本階段不會計算報酬', units='pix', win=Window(...), wrapWidth=1920.0)
+11.2242 	EXP 	window1: mouseVisible = True
+11.2292 	EXP 	Created text_waitTrigger = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='text_waitTrigger', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+11.2293 	EXP 	window1: mouseVisible = True
+11.2319 	EXP 	Created text_waitTen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1.,  1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='text_waitTen', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+11.2321 	EXP 	window1: mouseVisible = True
+11.2437 	EXP 	Created text_new_round = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='BiauKai', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_new_round', opacity=1.0, ori=0.0, pos=array([0.  , 0.32]), rgb=UNKNOWN, text='新回合開始，目標數字 6', units='height', win=Window(...), wrapWidth=1920)
+11.2438 	EXP 	window1: mouseVisible = True
+11.2485 	EXP 	Created text_current_num = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='BiauKai', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_current_num', opacity=1.0, ori=0.0, pos=array([-0.28,  0.04]), rgb=UNKNOWN, text='當前數字 \n0', units='height', win=Window(...), wrapWidth=1920.0)
+11.2486 	EXP 	window1: mouseVisible = True
+11.2510 	EXP 	Created text_target_num = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='BiauKai', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_target_num', opacity=1.0, ori=0.0, pos=array([0.28, 0.04]), rgb=UNKNOWN, text='目標數字 \n6', units='height', win=Window(...), wrapWidth=1920.0)
+11.2511 	EXP 	window1: mouseVisible = True
+11.2587 	EXP 	Created text_subject_turn = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='BiauKai', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_subject_turn', opacity=1.0, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text='現在輪到「您」做選擇', units='height', win=Window(...), wrapWidth=1920.0)
+11.2588 	EXP 	window1: mouseVisible = True
+11.2624 	EXP 	Created text_computer_turn = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='BiauKai', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_computer_turn', opacity=1.0, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text='現在輪到「電腦」做選擇', units='height', win=Window(...), wrapWidth=1920.0)
+11.2625 	EXP 	window1: mouseVisible = True
+11.2660 	EXP 	Created text_round_end = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='BiauKai', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_round_end', opacity=1.0, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text='回合結束', units='height', win=Window(...), wrapWidth=1920.0)
+11.2661 	EXP 	window1: mouseVisible = True
+11.2711 	EXP 	Created text_subject_win = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='BiauKai', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_subject_win', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.23]), rgb=UNKNOWN, text='本回合由您獲勝', units='height', win=Window(...), wrapWidth=1920.0)
+11.2713 	EXP 	window1: mouseVisible = True
+11.2739 	EXP 	Created text_computer_win = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='BiauKai', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_computer_win', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.23]), rgb=UNKNOWN, text='本回合由電腦獲勝', units='height', win=Window(...), wrapWidth=1920.0)
+11.2740 	EXP 	window1: mouseVisible = True
+11.2771 	EXP 	Created text_computer_option = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='BiauKai', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_computer_option', opacity=1.0, ori=0.0, pos=array([-0.18, -0.23]), rgb=UNKNOWN, text='電腦的選擇', units='height', win=Window(...), wrapWidth=1920.0)
+11.2772 	EXP 	window1: mouseVisible = True
+11.2796 	EXP 	Created text_subject_option = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='BiauKai', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_subject_option', opacity=1.0, ori=0.0, pos=array([-0.18, -0.23]), rgb=UNKNOWN, text='您的選擇', units='height', win=Window(...), wrapWidth=1920.0)
+11.2798 	EXP 	window1: mouseVisible = True
+11.2800 	EXP 	window1: mouseVisible = True
+11.2806 	EXP 	window1: mouseVisible = True
+11.2811 	EXP 	window1: mouseVisible = True
+11.2920 	EXP 	window1: mouseVisible = True
+11.2922 	EXP 	window1: mouseVisible = True
+11.2927 	EXP 	window1: mouseVisible = True
+11.2932 	EXP 	window1: mouseVisible = True
+11.3139 	EXP 	window1: mouseVisible = True
+11.3140 	EXP 	window1: mouseVisible = True
+11.3145 	EXP 	window1: mouseVisible = True
+11.3151 	EXP 	window1: mouseVisible = True
+11.3228 	EXP 	window1: mouseVisible = True
+11.3230 	EXP 	window1: mouseVisible = True
+11.3235 	EXP 	window1: mouseVisible = True
+11.3240 	EXP 	window1: mouseVisible = True
+11.3296 	EXP 	window1: mouseVisible = True
+11.3298 	EXP 	window1: mouseVisible = True
+11.3304 	EXP 	window1: mouseVisible = True
+11.3309 	EXP 	window1: mouseVisible = True
+11.3389 	EXP 	window1: mouseVisible = True
+11.3390 	EXP 	window1: mouseVisible = True
+11.3396 	EXP 	window1: mouseVisible = True
+11.3401 	EXP 	window1: mouseVisible = True
+11.3456 	EXP 	window1: mouseVisible = True
+11.3457 	EXP 	window1: mouseVisible = True
+11.3463 	EXP 	window1: mouseVisible = True
+11.3468 	EXP 	window1: mouseVisible = True
+11.3548 	EXP 	window1: mouseVisible = True
+11.3549 	EXP 	window1: mouseVisible = True
+11.3555 	EXP 	window1: mouseVisible = True
+11.3559 	EXP 	window1: mouseVisible = True
+11.3623 	EXP 	window1: mouseVisible = True
+11.3649 	EXP 	Created text_fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='text_fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+11.3650 	EXP 	window1: mouseVisible = True
+11.3663 	EXP 	Created text_reward = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='BiauKai', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_reward', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.3766 	WARNING 	t of last frame was 2569.68ms (=1/0)
+11.3766 	EXP 	choice1_box: autoLog = True
+11.3766 	EXP 	choice2_box: autoLog = True
+11.3766 	EXP 	choice2_box: autoLog = True
+11.3766 	EXP 	choice2_box: autoLog = True
+11.3766 	EXP 	text_test_stage: autoDraw = True
+15.8445 	DATA 	Keypress: escape
+15.8488 	WARNING 	t of last frame was 25.82ms (=1/38)
+16.8182 	EXP 	window1: mouseVisible = True

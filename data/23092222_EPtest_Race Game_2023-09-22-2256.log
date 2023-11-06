@@ -1,0 +1,261 @@
+5.9169 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+7.3214 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+7.3217 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f9c4fc92760>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f9c4fc92700>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f9c4fc92580>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f9c55977d90>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.3218 	EXP 	window1: mouseVisible = True
+7.3218 	EXP 	window1: backgroundImage = ''
+7.3218 	EXP 	window1: backgroundFit = 'none'
+7.3224 	EXP 	window1: mouseVisible = False
+7.3240 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.3240 	EXP 	window1: recordFrameIntervals = False
+7.4047 	EXP 	window1: recordFrameIntervals = True
+8.2381 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.3603 	EXP 	window1: mouseVisible = True
+10.4064 	EXP 	Created text_test_stage = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Microsoft JhengHei', fontFiles=[], height=60.0, italic=False, languageStyle='LTR', name='text_test_stage', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='本階段為測試階段\n\n本階段不會計算報酬', units='pix', win=Window(...), wrapWidth=1920.0)
+10.4066 	EXP 	window1: mouseVisible = True
+10.4110 	EXP 	Created text_waitTrigger = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_waitTrigger', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+10.4112 	EXP 	window1: mouseVisible = True
+10.4134 	EXP 	Created text_waitTen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1.,  1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_waitTen', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+10.4135 	EXP 	window1: mouseVisible = True
+10.4247 	EXP 	Created text_new_round = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Microsoft JhengHei', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_new_round', opacity=1.0, ori=0.0, pos=array([0.  , 0.32]), rgb=UNKNOWN, text='新回合開始，目標數字 6', units='height', win=Window(...), wrapWidth=1920)
+10.4248 	EXP 	window1: mouseVisible = True
+10.4300 	EXP 	Created text_current_num = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Microsoft JhengHei', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_current_num', opacity=1.0, ori=0.0, pos=array([-0.28,  0.04]), rgb=UNKNOWN, text='當前數字 \n0', units='height', win=Window(...), wrapWidth=1920.0)
+10.4301 	EXP 	window1: mouseVisible = True
+10.4328 	EXP 	Created text_target_num = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Microsoft JhengHei', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_target_num', opacity=1.0, ori=0.0, pos=array([0.28, 0.04]), rgb=UNKNOWN, text='目標數字 \n6', units='height', win=Window(...), wrapWidth=1920.0)
+10.4329 	EXP 	window1: mouseVisible = True
+10.4426 	EXP 	Created text_subject_turn = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Microsoft JhengHei', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_subject_turn', opacity=1.0, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text='現在輪到「您」做選擇', units='height', win=Window(...), wrapWidth=1920.0)
+10.4427 	EXP 	window1: mouseVisible = True
+10.4472 	EXP 	Created text_computer_turn = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Microsoft JhengHei', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_computer_turn', opacity=1.0, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text='現在輪到「電腦」做選擇', units='height', win=Window(...), wrapWidth=1920.0)
+10.4473 	EXP 	window1: mouseVisible = True
+10.4513 	EXP 	Created text_round_end = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Microsoft JhengHei', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_round_end', opacity=1.0, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text='回合結束', units='height', win=Window(...), wrapWidth=1920.0)
+10.4514 	EXP 	window1: mouseVisible = True
+10.4566 	EXP 	Created text_subject_win = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Microsoft JhengHei', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_subject_win', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.23]), rgb=UNKNOWN, text='本回合由您獲勝', units='height', win=Window(...), wrapWidth=1920.0)
+10.4567 	EXP 	window1: mouseVisible = True
+10.4596 	EXP 	Created text_computer_win = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Microsoft JhengHei', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_computer_win', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.23]), rgb=UNKNOWN, text='本回合由電腦獲勝', units='height', win=Window(...), wrapWidth=1920.0)
+10.4597 	EXP 	window1: mouseVisible = True
+10.4629 	EXP 	Created text_computer_option = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Microsoft JhengHei', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_computer_option', opacity=1.0, ori=0.0, pos=array([-0.18, -0.23]), rgb=UNKNOWN, text='電腦的選擇', units='height', win=Window(...), wrapWidth=1920.0)
+10.4630 	EXP 	window1: mouseVisible = True
+10.4656 	EXP 	Created text_subject_option = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Microsoft JhengHei', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_subject_option', opacity=1.0, ori=0.0, pos=array([-0.18, -0.23]), rgb=UNKNOWN, text='您的選擇', units='height', win=Window(...), wrapWidth=1920.0)
+10.4659 	EXP 	window1: mouseVisible = True
+10.4661 	EXP 	window1: mouseVisible = True
+10.4667 	EXP 	window1: mouseVisible = True
+10.4673 	EXP 	window1: mouseVisible = True
+10.5757 	WARNING 	Font b'Microsoft JhengHei' was requested. No similar font found.
+10.5876 	EXP 	window1: mouseVisible = True
+10.5878 	EXP 	window1: mouseVisible = True
+10.5884 	EXP 	window1: mouseVisible = True
+10.5889 	EXP 	window1: mouseVisible = True
+10.6519 	WARNING 	Font b'Microsoft JhengHei' was requested. No similar font found.
+10.6846 	EXP 	window1: mouseVisible = True
+10.6847 	EXP 	window1: mouseVisible = True
+10.6853 	EXP 	window1: mouseVisible = True
+10.6858 	EXP 	window1: mouseVisible = True
+10.7573 	WARNING 	Font b'Microsoft JhengHei' was requested. No similar font found.
+10.7659 	EXP 	window1: mouseVisible = True
+10.7661 	EXP 	window1: mouseVisible = True
+10.7666 	EXP 	window1: mouseVisible = True
+10.7672 	EXP 	window1: mouseVisible = True
+10.8330 	WARNING 	Font b'Microsoft JhengHei' was requested. No similar font found.
+10.8385 	EXP 	window1: mouseVisible = True
+10.8386 	EXP 	window1: mouseVisible = True
+10.8392 	EXP 	window1: mouseVisible = True
+10.8397 	EXP 	window1: mouseVisible = True
+10.8977 	WARNING 	Font b'Microsoft JhengHei' was requested. No similar font found.
+10.9084 	EXP 	window1: mouseVisible = True
+10.9086 	EXP 	window1: mouseVisible = True
+10.9092 	EXP 	window1: mouseVisible = True
+10.9097 	EXP 	window1: mouseVisible = True
+10.9758 	WARNING 	Font b'Microsoft JhengHei' was requested. No similar font found.
+10.9812 	EXP 	window1: mouseVisible = True
+10.9814 	EXP 	window1: mouseVisible = True
+10.9819 	EXP 	window1: mouseVisible = True
+10.9824 	EXP 	window1: mouseVisible = True
+11.0412 	WARNING 	Font b'Microsoft JhengHei' was requested. No similar font found.
+11.0500 	EXP 	window1: mouseVisible = True
+11.0502 	EXP 	window1: mouseVisible = True
+11.0507 	EXP 	window1: mouseVisible = True
+11.0513 	EXP 	window1: mouseVisible = True
+11.1156 	WARNING 	Font b'Microsoft JhengHei' was requested. No similar font found.
+11.1210 	EXP 	window1: mouseVisible = True
+11.1237 	EXP 	Created text_fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+11.1238 	EXP 	window1: mouseVisible = True
+11.1251 	EXP 	Created text_reward = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Microsoft JhengHei', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_reward', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.1497 	WARNING 	t of last frame was 2911.73ms (=1/0)
+11.1497 	EXP 	choice1_box: autoLog = True
+11.1497 	EXP 	choice2_box: autoLog = True
+11.1497 	EXP 	choice2_box: autoLog = True
+11.1497 	EXP 	choice2_box: autoLog = True
+11.1497 	EXP 	text_test_stage: autoDraw = True
+20.7626 	DATA 	Keypress: space
+20.7680 	EXP 	text_test_stage: autoDraw = False
+20.7680 	EXP 	text_fixation: autoDraw = True
+26.2655 	EXP 	text_fixation: autoDraw = False
+26.2655 	EXP 	text_current_num: text = '當前數字 \n0'
+26.2655 	EXP 	text_target_num: height = 0.08
+26.2655 	EXP 	text_target_num: height = 0.08
+26.2655 	EXP 	text_target_num: height = 0.08
+26.2655 	EXP 	text_target_num: text = '目標數字 \n7'
+26.2655 	EXP 	text_new_round: height = 0.08
+26.2655 	EXP 	text_new_round: height = 0.08
+26.2655 	EXP 	text_new_round: height = 0.08
+26.2655 	EXP 	text_new_round: text = '新回合開始，目標數字 7'
+26.2655 	EXP 	text_new_round: autoDraw = True
+26.2655 	EXP 	text_current_num: autoDraw = True
+26.2655 	EXP 	text_target_num: autoDraw = True
+30.2539 	EXP 	text_new_round: autoDraw = False
+30.2539 	EXP 	text_current_num: autoDraw = False
+30.2539 	EXP 	text_target_num: autoDraw = False
+30.2539 	EXP 	text_new_round: autoDraw = False
+30.2539 	EXP 	text_current_num: autoDraw = False
+30.2539 	EXP 	text_target_num: autoDraw = False
+30.2539 	EXP 	text_fixation: autoDraw = True
+32.7643 	WARNING 	t of last frame was 27.36ms (=1/36)
+32.7643 	EXP 	text_fixation: autoDraw = False
+32.7643 	EXP 	text_fixation: autoDraw = False
+32.7643 	EXP 	choice1_box: foreColor = '#000000'
+32.7643 	EXP 	choice2_box: foreColor = '#000000'
+32.7643 	EXP 	choice2_box: foreColor = '#000000'
+32.7643 	EXP 	text_current_num: text = '當前數字 \n0'
+32.7643 	EXP 	text_target_num: text = '目標數字 \n7'
+32.7643 	EXP 	text_subject_turn: autoDraw = True
+32.7643 	EXP 	text_current_num: autoDraw = True
+32.7643 	EXP 	text_target_num: autoDraw = True
+32.7643 	EXP 	text_subject_option: autoDraw = True
+32.7643 	EXP 	choice1_box: autoDraw = True
+32.7643 	EXP 	choice2_box: autoDraw = True
+32.7643 	EXP 	choice2_box: autoDraw = True
+33.9984 	WARNING 	t of last frame was 28.46ms (=1/35)
+34.6318 	WARNING 	t of last frame was 27.07ms (=1/36)
+35.6983 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+36.6490 	DATA 	Keypress: 1
+36.6540 	EXP 	text_subject_turn: autoDraw = False
+36.6540 	EXP 	text_current_num: autoDraw = False
+36.6540 	EXP 	text_target_num: autoDraw = False
+36.6540 	EXP 	text_subject_option: autoDraw = False
+36.6540 	EXP 	choice1_box: autoDraw = False
+36.6540 	EXP 	choice2_box: autoDraw = False
+36.6540 	EXP 	choice2_box: autoDraw = False
+36.6540 	EXP 	choice1_box: foreColor = '#FFFF00'
+36.6540 	EXP 	text_subject_turn: autoDraw = True
+36.6540 	EXP 	text_current_num: autoDraw = True
+36.6540 	EXP 	text_target_num: autoDraw = True
+36.6540 	EXP 	text_subject_option: autoDraw = True
+36.6540 	EXP 	choice1_box: autoDraw = True
+36.6540 	EXP 	choice2_box: autoDraw = True
+36.6540 	EXP 	choice2_box: autoDraw = True
+38.6488 	EXP 	text_subject_turn: autoDraw = False
+38.6488 	EXP 	text_current_num: autoDraw = False
+38.6488 	EXP 	text_target_num: autoDraw = False
+38.6488 	EXP 	text_subject_option: autoDraw = False
+38.6488 	EXP 	choice1_box: autoDraw = False
+38.6488 	EXP 	choice2_box: autoDraw = False
+38.6488 	EXP 	choice2_box: autoDraw = False
+38.6488 	EXP 	text_fixation: autoDraw = True
+39.6499 	EXP 	text_fixation: autoDraw = False
+39.6499 	EXP 	text_fixation: autoDraw = False
+39.6499 	EXP 	choice1_box: foreColor = '#000000'
+39.6499 	EXP 	choice2_box: foreColor = '#000000'
+39.6499 	EXP 	choice2_box: foreColor = '#000000'
+39.6499 	EXP 	text_current_num: height = 0.08
+39.6499 	EXP 	text_current_num: height = 0.08
+39.6499 	EXP 	text_current_num: height = 0.08
+39.6499 	EXP 	text_current_num: text = '當前數字 \n1'
+39.6499 	EXP 	text_target_num: text = '目標數字 \n7'
+39.6499 	EXP 	text_subject_turn: autoDraw = True
+39.6499 	EXP 	text_current_num: autoDraw = True
+39.6499 	EXP 	text_target_num: autoDraw = True
+39.6499 	EXP 	text_subject_option: autoDraw = True
+39.6499 	EXP 	choice1_box: autoDraw = True
+39.6499 	EXP 	choice2_box: autoDraw = True
+39.6499 	EXP 	choice2_box: autoDraw = True
+40.6361 	DATA 	Keypress: 3
+40.6553 	EXP 	text_subject_turn: autoDraw = False
+40.6553 	EXP 	text_current_num: autoDraw = False
+40.6553 	EXP 	text_target_num: autoDraw = False
+40.6553 	EXP 	text_subject_option: autoDraw = False
+40.6553 	EXP 	choice1_box: autoDraw = False
+40.6553 	EXP 	choice2_box: autoDraw = False
+40.6553 	EXP 	choice2_box: autoDraw = False
+40.6553 	EXP 	choice2_box: foreColor = '#FFFF00'
+40.6553 	EXP 	text_subject_turn: autoDraw = True
+40.6553 	EXP 	text_current_num: autoDraw = True
+40.6553 	EXP 	text_target_num: autoDraw = True
+40.6553 	EXP 	text_subject_option: autoDraw = True
+40.6553 	EXP 	choice1_box: autoDraw = True
+40.6553 	EXP 	choice2_box: autoDraw = True
+40.6553 	EXP 	choice2_box: autoDraw = True
+42.2270 	DATA 	Mouse: wheel shift=(0,0), pos=(832,233)
+42.6491 	EXP 	text_subject_turn: autoDraw = False
+42.6491 	EXP 	text_current_num: autoDraw = False
+42.6491 	EXP 	text_target_num: autoDraw = False
+42.6491 	EXP 	text_subject_option: autoDraw = False
+42.6491 	EXP 	choice1_box: autoDraw = False
+42.6491 	EXP 	choice2_box: autoDraw = False
+42.6491 	EXP 	choice2_box: autoDraw = False
+42.6491 	EXP 	text_fixation: autoDraw = True
+43.6553 	EXP 	text_fixation: autoDraw = False
+43.6553 	EXP 	text_fixation: autoDraw = False
+43.6553 	EXP 	choice1_box: foreColor = '#000000'
+43.6553 	EXP 	choice2_box: foreColor = '#000000'
+43.6553 	EXP 	choice2_box: foreColor = '#000000'
+43.6553 	EXP 	text_current_num: height = 0.08
+43.6553 	EXP 	text_current_num: height = 0.08
+43.6553 	EXP 	text_current_num: height = 0.08
+43.6553 	EXP 	text_current_num: text = '當前數字 \n4'
+43.6553 	EXP 	text_target_num: text = '目標數字 \n7'
+43.6553 	EXP 	text_subject_turn: autoDraw = True
+43.6553 	EXP 	text_current_num: autoDraw = True
+43.6553 	EXP 	text_target_num: autoDraw = True
+43.6553 	EXP 	text_subject_option: autoDraw = True
+43.6553 	EXP 	choice1_box: autoDraw = True
+43.6553 	EXP 	choice2_box: autoDraw = True
+43.6553 	EXP 	choice2_box: autoDraw = True
+44.0391 	DATA 	Mouse: wheel shift=(0,0), pos=(832,233)
+44.4543 	DATA 	Keypress: 3
+44.4733 	EXP 	text_subject_turn: autoDraw = False
+44.4733 	EXP 	text_current_num: autoDraw = False
+44.4733 	EXP 	text_target_num: autoDraw = False
+44.4733 	EXP 	text_subject_option: autoDraw = False
+44.4733 	EXP 	choice1_box: autoDraw = False
+44.4733 	EXP 	choice2_box: autoDraw = False
+44.4733 	EXP 	choice2_box: autoDraw = False
+44.4733 	EXP 	choice2_box: foreColor = '#FFFF00'
+44.4733 	EXP 	text_subject_turn: autoDraw = True
+44.4733 	EXP 	text_current_num: autoDraw = True
+44.4733 	EXP 	text_target_num: autoDraw = True
+44.4733 	EXP 	text_subject_option: autoDraw = True
+44.4733 	EXP 	choice1_box: autoDraw = True
+44.4733 	EXP 	choice2_box: autoDraw = True
+44.4733 	EXP 	choice2_box: autoDraw = True
+45.0291 	DATA 	Mouse: wheel shift=(0,0), pos=(832,233)
+46.4782 	EXP 	text_subject_turn: autoDraw = False
+46.4782 	EXP 	text_current_num: autoDraw = False
+46.4782 	EXP 	text_target_num: autoDraw = False
+46.4782 	EXP 	text_subject_option: autoDraw = False
+46.4782 	EXP 	choice1_box: autoDraw = False
+46.4782 	EXP 	choice2_box: autoDraw = False
+46.4782 	EXP 	choice2_box: autoDraw = False
+46.4782 	EXP 	text_subject_turn: autoDraw = False
+46.4782 	EXP 	text_current_num: autoDraw = False
+46.4782 	EXP 	text_target_num: autoDraw = False
+46.4782 	EXP 	text_subject_option: autoDraw = False
+46.4782 	EXP 	choice1_box: autoDraw = False
+46.4782 	EXP 	choice2_box: autoDraw = False
+46.4782 	EXP 	choice2_box: autoDraw = False
+46.4782 	EXP 	text_current_num: height = 0.08
+46.4782 	EXP 	text_current_num: height = 0.08
+46.4782 	EXP 	text_current_num: height = 0.08
+46.4782 	EXP 	text_current_num: text = '當前數字 \n7'
+46.4782 	EXP 	text_target_num: text = '目標數字 \n7'
+46.4782 	EXP 	text_round_end: autoDraw = True
+46.4782 	EXP 	text_current_num: autoDraw = True
+46.4782 	EXP 	text_target_num: autoDraw = True
+46.4782 	EXP 	text_subject_win: autoDraw = True
+48.3980 	DATA 	Mouse: wheel shift=(0,0), pos=(832,233)
+48.7392 	DATA 	Keypress: escape
+49.5331 	EXP 	window1: mouseVisible = True
